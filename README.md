@@ -25,3 +25,5 @@ A batch size of 16 was chosen, Adam was used as the model optimizer, and Binary 
 The model was set to train for 300 epochs, but stopped at epoch 167 due to Early Stopping. As seen in the Classification Report, the model has an overall accuracy of 87%. However, the model has a much higher recall for Staying compared to Exiting.
 
 The Confusion Matrix also supports this, as it shows 268 exiting customers were misclassified as staying. This may be due to how uneven the dataset labels are (7963 stay, 2037 exit). As such, to improve the model, a more even dataset can be used so that the model can train more on the properties of customers that exited.
+
+For the resulting image, please visit: https://hjmok.github.io/josephmok_portfolio/#/Bank
